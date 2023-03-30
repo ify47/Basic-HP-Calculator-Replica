@@ -1,0 +1,155 @@
+/* Set default styles for the body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    background-color: #e6e6e6;
+    }
+    
+    /* Style for the input section */
+    .input {
+    text-align: right;
+    width: 80%;
+    height: 250px;
+    background-color: #e6e6e6;
+    border: none;
+    margin-top: 99px;
+    }
+    
+    /* Styles for the previous number and history */
+    .previus-Num, .previus-hist {
+    font-size: 20px;
+    opacity: 0.5;
+    }
+    
+    /* Styles for the current number and history */
+    .display-Num, .display-hist {
+    font-size: 5rem;
+    margin-top: -16px;
+    }
+    
+    /* Style for the history section */
+    .display-hist {
+    margin-bottom: 0;
+    }
+    
+    /* Style for the calculator button */
+    button {
+    width: 20%;
+    height: 90px;
+    margin-top: 2px;
+    margin-right: 0;
+    background-color: #fafafa;
+    border: none;
+    font-size: 25px;
+    padding: 30px;
+    }
+    
+    /* Style for the history section */
+    .hiistory {
+    position: absolute;
+    top: 10px;
+    left: 81%;
+    height: 95%;
+    }
+    
+    /* Styles for the calculator keys */
+    .keys {
+    position: absolute;
+    bottom: 0;
+    }
+    
+    /* Styles for the history section */
+    .hist {
+    margin-left: 40px;
+    font-weight: bold;
+    border-bottom: 4px solid #0078d7;
+    padding: 1px;
+    }
+    
+    /* Styles for the history number */
+    .historyN {
+    text-align: right;
+    margin: 10px;
+    margin-top: -274px;
+    position: absolute;
+    right: 0px;
+    width: 20%;
+    }
+
+    .history-entry {
+        margin-top: 8px;
+    }
+
+    .clear-history{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin: 10px;
+        font-size: 20px;
+    }
+    
+    /* Styles for the "x2" symbol */
+    .x2 {
+    font-size: 15px;
+    position: absolute;
+    top: 25px;
+    }
+    
+    /* Styles for the operator keys */
+    .operator, .op {
+    background-color: #f0f0f0;
+    }
+    
+    /* Style for the equal button */
+    .equal {
+    background-color: #8abae0;
+    }
+    
+    /* Hover style for the equal button */
+    .equal:hover {
+    background-color: #4699db;
+    }
+    
+    /* Hover style for all calculator buttons */
+    .btn:hover {
+    background-color: #d1d1d1;
+    }
+    
+    /* Media queries for responsive design */
+    @media (max-width: 768px) {
+    button {
+    width: 24.4%;
+    height: 85px;
+    font-size: 20px;
+    }
+    .hiistory,
+    .historyN,
+    .clear-history {
+    display: none;
+    }
+    .input {
+    width: 98%;
+    }
+    }
+    
+    @media (max-width: 570px) {
+    button {
+    width: 24%;
+    height: 45;
+    font-size: 16px;
+    }
+    }
+    
+    @media (max-height: 700px) {
+    .keys {
+    position: absolute;
+    bottom: auto;
+    }
+    }
+    
+    @media (min-height: 800px) {
+    .input {
+    margin-top: 159px;
+    }
+    }

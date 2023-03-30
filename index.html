@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+      <!-- Calculator container -->
+    <div class="calculator">
+        <!-- Display section -->
+        <div class="display">
+            <div class="input">
+                <!-- Previous number display -->
+                <p class="previus-Num"></p>
+                <!-- Current number display -->
+                <p class="display-Num"></p>
+            </div>
+        </div>
+        <!-- Keys section -->
+        <div class="keys">
+            <!-- Clear button -->
+            <button class="btn op" id="clear">AC</button>
+            <!-- Square button -->
+            <button class="square btn op" data-action="X^2">X<span class="x2">2</span></button>
+            <!-- Division button -->
+            <button class=" btn operational op" data-action="÷" id="divide">÷</button>
+            <!-- Delete button with icon -->
+            <button class="btn op" id="delete"><i class='fa-solid fa-delete-left'></i></button>
+            <!-- Number buttons -->
+            <button class="btn number">9</button>
+            <button class="btn number">8</button>
+            <button class="btn number">7</button>
+            <!-- Multiplication button -->
+            <button class="btn operational op" data-action="×" id="multiply">×</button>
+            <button class="btn number">6</button>
+            <button class="btn number">5</button>
+            <button class="btn number">4</button>
+            <!-- Subtraction button -->
+            <button class="btn operational op" data-action="-" id="subtract">-</button>
+            <button class="btn number">3</button>
+            <button class="btn number">2</button>
+            <button class="btn number">1</button>
+            <!-- Addition button -->
+            <button class="btn operational op" data-action="+" id="add">+</button>
+            <!-- Sign change button -->
+            <button class="btn number">00</button>
+            <button class="btn number">0</button>
+            <!-- Decimal point button -->
+            <button class="btn number">.</button>
+            <!-- Equals button -->
+            <button class="equal" id="equals">=</button>
+        </div>
+        <!-- History section -->
+        <div class="hiistory">
+            <!-- History title -->
+            <p class="hist">History</p>
+        </div>
+        <div class="historyN">
+            <!-- Previous history display -->
+            <div class="history previus-hist"></div>
+        </div>
+        <i class="clear-history fas fa-trash"></i>
+        
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
