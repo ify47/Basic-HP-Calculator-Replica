@@ -173,13 +173,7 @@ body {
             position: absolute;
             bottom: auto;
             }
-            .clear-history{
-                position: absolute;
-                bottom: 0;
-                right: 0;
-                margin: 10px;
-                font-size: 20px;
-            }
+            
         }
     @media (min-height: 800px) {
     .input {
