@@ -1,5 +1,5 @@
 <h1 style="font-size: 36px;">HP Calculator Replica</h1>
-This is a replica of the HP Calculator built using HTML, CSS, and JavaScript.
+This is a simple basic replica of the HP Calculator built using HTML, CSS, and JavaScript.
 
 <h2 style="font-size: 24px;">Usage</h2>
 You can use this calculator to perform various arithmetic operations such as addition, subtraction, multiplication, and division. The calculator also supports the use of parentheses and the ability to clear the screen.
