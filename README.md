@@ -1,4 +1,4 @@
-HP Calculator Replica
+<h1 style="font-size: 36px;">HP Calculator Replica</h1>
 This is a replica of the HP Calculator built using HTML, CSS, and JavaScript.
 
 Usage
