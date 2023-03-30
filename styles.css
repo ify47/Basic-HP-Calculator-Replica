@@ -36,7 +36,7 @@ body {
     /* Style for the calculator button */
     button {
     width: 20%;
-    height: 90px;
+    height: 86px;
     margin-top: 2px;
     margin-right: 0;
     background-color: #fafafa;
@@ -136,15 +136,26 @@ body {
     @media (max-width: 570px) {
     button {
     width: 24%;
-    height: 45;
+    height: 45px;
     font-size: 16px;
     }
     }
     
-    @media (max-height: 700px) {
+    @media (min-width: 768px) and (max-height: 615px) {
     .keys {
     position: absolute;
-    bottom: auto;
+    bottom: 5px;
+    }
+
+    button{
+    width: 20%;
+    height: 54px;
+    margin-top: 2px;
+    margin-right: 0;
+    background-color: #fafafa;
+    border: none;
+    font-size: 25px;
+    padding: 21px;
     }
     }
     
@@ -152,4 +163,18 @@ body {
     .input {
     margin-top: 159px;
     }
+    }
+
+    @media (min-width: 1228px) and (max-height: 615px) {
+        
+        button {
+            width: 20%;
+            height: 54px;
+            margin-top: 2px;
+            margin-right: 0;
+            background-color: #fafafa;
+            border: none;
+            font-size: 25px;
+            padding: 29px;
+        }
     }
