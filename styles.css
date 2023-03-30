@@ -152,10 +152,10 @@ body {
     height: 54px;
     margin-top: 2px;
     margin-right: 0;
-    background-color: #fafafa;
     border: none;
     font-size: 25px;
-    padding: 21px;
+    padding: 23px;
+    padding-top: 13px;
     }
     }
     
@@ -172,9 +172,9 @@ body {
             height: 54px;
             margin-top: 2px;
             margin-right: 0;
-            background-color: #fafafa;
             border: none;
             font-size: 25px;
-            padding: 29px;
+            padding: 47px;
+            padding-top: 18px;
         }
     }
