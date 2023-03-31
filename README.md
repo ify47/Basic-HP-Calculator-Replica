@@ -10,6 +10,7 @@ To use this calculator, simply download the index.html, style.css, and script.js
 <h2 style="font-size: 24px;">Features</h2>
 Addition, subtraction, multiplication, and division <br>
 Use of parentheses <br>
+History <br>
 Clear screen
 
 <h2 style="font-size: 24px;">Credits</h2>
